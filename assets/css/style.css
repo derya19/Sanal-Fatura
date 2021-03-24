@@ -706,7 +706,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/DD.PNG") center center no-repeat;
+  background:  center center no-repeat;
   background-size: cover;
   height: 500px;
 }
@@ -923,7 +923,7 @@ section {
         margin-top: 10px;
         border: 2px solid #fff;
         color: black;
-        background: #aad4c8;
+        background: ;
     }
 
         .cta .cta-btn:hover {
