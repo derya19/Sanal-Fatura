@@ -921,7 +921,9 @@ section {
     .services .icon-box:hover  a {
         color: #fff;
     }
-  
+    .services .icon-box:hover span {
+        color: #fff;
+    }
     .services .title:hover {
         color: #fff;
     }
