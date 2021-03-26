@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
         font-style: normal;
         color: #aad4c8;
     }
-    <
+    
 #topbar .contact-info i a, #topbar .contact-info i span {
   padding-left: 5px;
   color: #fff;
@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
         color: #353535;
         background-color: #aad4c8;
         border: 2px solid white;
-        border-radius: 50px;
+    
         padding: 10px;
     }
         .navbar .cta-btn:hover{
@@ -1732,7 +1732,7 @@ section {
 }
 
 #footer .footer-top p {
-  font-size: 15;
+  font-size: 15px;
   font-style: italic;
   margin: 30px 0 0 0;
   padding: 0;
