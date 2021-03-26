@@ -54,8 +54,8 @@
                     <li><a class="nav-link scrollto" href="index.html">ÖZELLİKLER</a></li>
                     <li><a class="nav-link scrollto" href="kampanyalar.html">KAMPANYALAR</a></li>
                     <li><a class="nav-link scrollto " href="index.html">S.S.S</a></li>
-                    <li><a class="nav-link scrollto " href="destek.html">DESTEK</a></li>
-                    <li><a class="nav-link scrollto active" href="iletisim.html">İLETİŞİM</a></li>
+                    <li><a class="nav-link scrollto  " href="destek.html">DESTEK</a></li>
+                    <li><a class="nav-link scrollto active " href="iletisim.html">İLETİŞİM</a></li>
                     <li><a class="cta-btn active" href="index.html">ÜCRETSİZ KULLAN</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -64,103 +64,68 @@
         </div>
     </header><!-- End Header -->
     <!-- ======= Contact Section ======= -->
-
+    <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <!--  <h2>İLETİŞİM</h2>-->
-                    <!-- <p>İletişim bilgilerinizi doldurun biz size ulaşalım.</p>
-    -->
 
-                    <div class="text-center"  style="margin-top:10px; margin-bottom:20px;"><h2 style="color: dimgrey">DESTEK TALEP FORMU</h2></div><br>
-                    <p style="font-weight: 600;margin-right:10px;text-align:center">
-                        <i class="bi bi-envelope-fill" aria-hidden="true" style="font-size: 30px;color: #aad4c8"></i><br>
-                        <a href="mailto:bilgi@sanalfatura.com"  style="font-size: 30px;text-align: center; color: #88a99f">bilgi@sanalfatura.com</a>  <br><br><span style="font-size: 15px; color:dimgray">Sistem hakkında her türlü bilgi, istek ve önerilerinizi form ile bize gönderebilirsiniz.   <br>Operatörlerimiz en kısa zamanda sizinle iletişime geçecektir.</span>
-                    </p>
-                </div>
+            <div class="text-center" style="margin-top:10px; margin-bottom:20px"><h2 style="color:dimgray">İLETİŞİM</h2></div>
+            <br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col" style=" color: #88a99f">SANAL FATURA</th>
+                        <th scope="col" style=" color: #88a99f"></th>
+
+                    </tr>
+                </thead>
+                <tbody style="border-radius: 50px">
+
+                    <tr>
+                        <th scope="row" style="color:black; border-color:#5C9F24;">E-Mail</th>
+                        <td style=" border-color: #5C9F24; color: #88a99f"><span style="font-weight: bold">:</span> bilgi@benimfatura.com</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row" style="color:black; border-color:#5C9F24;">Destek Sistemi</th>
+                        <td style="border-color: #5C9F24;color: #88a99f"><span style="font-weight: bold">:</span> destek@benimfatura.com</td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <br>
+            <br>
+            <br>
+            <div class="section-title">
+                <!--  <h2>İLETİŞİM</h2>-->
+                <!-- <p>İletişim bilgilerinizi doldurun biz size ulaşalım.</p>
+                -->
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="text-center" style="margin-top:10px; margin-bottom:20px"><h2 style="color: dimgray">SİZE ULAŞALIM</h2></div>
+                </form>
             </div>
-
-
-
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
                     <div class="col-md-6 form-group">
-                        <input type="text" name="name" class="form-control" id="name" style="color:#5786b4" placeholder="Adınız Soyadınız:" data-rule="" data-msg="Lütfen Boş Bırakmayınız.">
+                        <input type="text" name="name" class="form-control" id="name" style="color:#5786b4" placeholder="Adınız Soyadınız:" data-rule="minlen:4" data-msg="Lütfen Boş Bırakmayınız.">
                     </div>
                     <div class="col-md-6 form-group mt-3 mt-md-0">
                         <input type="email" class="form-control" name="email" id="email" style="color:#5786b4" placeholder="E-Mail Adresiniz:" data-rule="email" data-msg="Lütfen Boş Bırakmayınız.">
                     </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input type="text" name="name" class="form-control" id="name" style="color:#5786b4" placeholder="Telefon:" data-rule="minlen:4" data-msg="Lütfen Boş Bırakmayınız.">
-                    </div>
-                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                        <input type="text" class="form-control" name="name" id="name" style="color:#5786b4" placeholder="Konu:" data-rule="text" data-msg="Lütfen Boş Bırakmayınız.">
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-12 form-group mt-3 mt-md-0">
-                        <textarea id="w3review" class="form-control" name="w3review" rows="3" cols="50" style="color:#5786b4" placeholder="İstek / Öneri" data-msg="Lütfen Boş Bırakmayınız."></textarea>
 
-                    </div>
-                </div>
-                <!--
-                <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu:" required>
-                </div>
-
-                    -->
-                <!--<div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                    -->
-                <div class="text-center" style="margin-top:30px"><button type="submit" style="background-color: #88a99f">Gönder</button>
-                </div>
+                <div class="text-center" style="margin-top:30px"><button type="submit" style=" background-color: #88a99f">Gönder</button></div>
             </form>
             <div class="row contact-info">
-                <h2 style="margin-top:40px; color: dimgray">İLETİŞİM</h2>
-                <div class="col-md-12">
-                    <div class="contact-email">
-                        <i class="bi bi-envelope" style="color: #aad4c8"></i>
-                        <h3 style="color: #88a99f">Email Adresimiz</h3>
-                        <p><a href="mailto:bilgi@sanalfatura.com" ; style="color:dimgray">bilgi@sanalfatura.com</a></p>
-                    </div>
-                </div>
-            </div>
-            <!--
-              <div class="form">
-                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                      <div class="row">
-                          <div class="col-md-6 form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Adınız Soyadınız:" data-rule="minlen:4" data-msg="Lütfen Boş Bırakmayınız.">
-                          </div>
-                          <div class="col-md-6 form-group mt-3 mt-md-0">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="E-Mail Adresiniz:" data-rule="email" data-msg="Lütfen Boş Bırakmayınız.">
-                          </div>
-                      </div>
-                      <div class="form-group mt-3">
-                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu:" required>
-                      </div>
-                      <div class="form-group mt-3">
-                          <textarea class="form-control" name="message" rows="5" placeholder="Mesajınız:" required></textarea>
-                      </div>
-                      <!--<div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-                -->
 
 
+               
 
-        </div>
+
+            </div></div>
     </section><!-- End Contact Section -->
+  
     <!-- ======= Footer ======= -->
     <footer id="footer">
 
@@ -182,21 +147,21 @@
                         </form>
                     </div>
                 </div>
-            
 
-                      </div>
-                    </div>
-                -->
-                <div class="container footer-bottom clearfix">
-                    <div class="copyright">
-                        &copy; Copyright <strong><span>Sanal Fatura</span></strong>. All Rights Reserved
-                    </div>
-                    <div class="credits">
 
-                        Designed by <a href="">Derya USTA</a>
-                    </div>
-                </div>
-              
+            </div>
+        </div>
+        -->
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Sanal Fatura</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+
+                Designed by <a href="">Derya USTA</a>
+            </div>
+        </div>
+
     </footer><!-- End Footer -->
 
 
