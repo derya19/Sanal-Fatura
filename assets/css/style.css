@@ -56,7 +56,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #aciklama table th, tr {
     color: black;
+    
 }
+
 /*................ Kampanya Tablo..................................*/
 
 /*................ Kampanya2 Tablo..................................*/
@@ -140,6 +142,29 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 7px;
     }
 }
+.button button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    width: 300px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    
+    border: 2px solid #fff;
+    color: #fff;
+    background: #aad4c8;
+    text-align: center;
+}
+
+    .button .button:hover {
+        background: #aad4c8;
+    }
+
+    
+   
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -539,7 +564,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2,h4,h5 {
   color: #eee;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
     #hero .btn-get-started {
